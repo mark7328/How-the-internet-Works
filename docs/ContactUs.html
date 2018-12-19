@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light mb-4 shadow" style="background-color: white;">
+  <a href="index.html"><img src="img/human-print-icon-logo-design-450w-671746882.jpg" alt="Company logo" height="75" width="75"/></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="nav navbar-nav mr-auto">
+      <li class="nav-item float-right">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item float-right active">
+        <a class="nav-link" href="ContactUs.html">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="jumbotron mx-auto" style="background-color: white;">
+  <h1 class="mx-auto d-block" >Hey parents! Feel free to contact us anytime</h1>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="well well-sm">
+        <form style="background-color: white;">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="name">
+                  Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+              </div>
+              <div class="form-group">
+                <label for="email">
+                  Email Address</label>
+                <div class="input-group">
+
+
+                  <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+              </div>
+              <div class="form-group">
+                <label for="subject">
+                  Subject</label>
+                <select id="subject" name="subject" class="form-control" required="required">
+                  <option value="na" selected="">Choose One:</option>
+                  <option value="hire">Hire me</option>
+                  <option value="secret">It's a secret</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="name">
+                  Message</label>
+                <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                          placeholder="Message"></textarea>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                Send Message</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <form>
+        <legend><span class="glyphicon glyphicon-globe"></span> Our office</legend>
+        <address>
+          <strong>ClockWork Inc.<br>
+          123 Main Street<br>
+          Newark, NJ 08854<br>
+          Phone: (123) 456-7890</strong>
+        </address>
+        <address>
+          <strong>Full Name</strong><br>
+          <a href="mailto:mcc49@njit.edu">mcc49@njit.edu</a>
+        </address>
+      </form>
+    </div>
+  </div>
+</div>
+<span class="d-block p-2 text-black mx-auto fixed-bottom" style="width: 200px;">Martin Chukwu ©2018</span>
+
+</body>
+</html>
